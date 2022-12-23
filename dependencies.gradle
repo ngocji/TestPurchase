@@ -1,0 +1,92 @@
+apply from: 'dep-core.gradle'
+
+ext {
+    java_source_version = JavaVersion.VERSION_1_8
+    java_target_version = JavaVersion.VERSION_1_8
+    kotlin_jvm_target = '1.8'
+    gradle_version = '7.2.2'
+    gradle_kotin_version = '1.6.21'
+    hilt_version = '2.42'
+    target_sdk = 32
+    compile_sdk = 32
+    min_sdk = 21
+
+
+    KotlinDependencies = configureDep([
+            "core_ktx": dep("androidx.core:core-ktx:1.8.0"),
+    ])
+
+    AndroidXDependencies = configureDep([
+            "appcompat" : dep("androidx.appcompat:appcompat:1.4.2"),
+            "preference": dep("androidx.preference:preference:1.1.1"),
+    ])
+
+    DesignDependencies = configureDep([
+            "constrainLayout": dep("androidx.constraintlayout:constraintlayout:2.1.4"),
+            "recyclerView"   : dep("androidx.recyclerview:recyclerview:1.2.1"),
+            "cardView"       : dep("androidx.cardview:cardview:1.0.0"),
+            "material"       : dep("com.google.android.material:material:1.6.1"),
+    ])
+
+    LifecycleDependencies = configureDep([
+            "lifecycle_viewmodel": dep("androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"),
+            "lifecycle_runtime"  : dep("androidx.lifecycle:lifecycle-runtime-ktx:2.3.1"),
+    ])
+
+    CoroutinesDependencies = configureDep([
+            "coroutine"     : dep("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.2"),
+            "coroutine_core": dep("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.2"),
+    ])
+
+    HiltDependencies = configureDep([
+            "hilt"         : dep("com.google.dagger:hilt-android:$hilt_version"),
+            "hilt_compiler": dep("com.google.dagger:hilt-compiler:$hilt_version", "kapt"),
+    ])
+
+    retrofit2 = '2.4.0'
+    RetrofitDependencies = configureDep([
+            "retrofit"           : dep("com.squareup.retrofit2:retrofit:$retrofit2"),
+            "gson-converter"     : dep("com.squareup.retrofit2:converter-gson:$retrofit2"),
+            "rx-adapter"         : dep("com.squareup.retrofit2:adapter-rxjava2:$retrofit2"),
+            "logging-interceptor": dep("com.squareup.okhttp3:logging-interceptor:3.10.0")
+    ])
+
+    CommonDependencies = configureDep([
+            "glide"        : dep("com.github.bumptech.glide:glide:4.14.1"),
+            "glideCompiler": dep("com.github.bumptech.glide:compiler:4.14.1", "kapt"),
+            "gson"         : dep("com.google.code.gson:gson:2.8.5"),
+            "workmanager"  : dep("androidx.work:work-runtime-ktx:2.7.1"),
+    ])
+
+    firebaseBom = "com.google.firebase:firebase-bom:30.4.1"
+    FirebaseDependencies = configureDep([
+            "firebaseCrasylytics" : dep('com.google.firebase:firebase-crashlytics'),
+            "firebaseAnalytics"   : dep('com.google.firebase:firebase-analytics'),
+            "firebaseMessage"     : dep('com.google.firebase:firebase-messaging'),
+            "firebaseInAppMessage": dep('com.google.firebase:firebase-inappmessaging-display'),
+            "firebaseConfig"      : dep('com.google.firebase:firebase-config'),
+            "firebaseCore"        : dep('com.google.android.play:core:1.10.3'),
+            "firebaseLocation"    : dep('com.google.android.gms:play-services-location:20.0.0'),
+            "firebaseDatabase"    : dep('com.google.firebase:firebase-database-ktx:20.0.0')
+    ])
+
+    ExoplayerDependencies = configureDep([
+            "exoPlayerCore": dep("com.google.android.exoplayer:exoplayer-core:2.13.3"),
+            "exoPlayerUI"  : dep("com.google.android.exoplayer:exoplayer-ui:2.13.3"),
+    ])
+
+    navigation = '2.5.2'
+    NavigationDependencies = configureDep([
+            "navFragment"      : dep("androidx.navigation:navigation-fragment-ktx:$navigation"),
+            "navUi"            : dep("androidx.navigation:navigation-ui-ktx:$navigation"),
+            "navDynamicFeature": dep("androidx.navigation:navigation-dynamic-features-fragment:$navigation"),
+    ])
+
+
+    room = '2.4.3'
+    RoomDependencies = configureDep([
+            "roomRuntime": dep("androidx.room:room-runtime:$room"),
+            "kaptRoom"   : dep("androidx.room:room-compiler:$room", "kapt"),
+            "roomKtx"    : dep("androidx.room:room-ktx:$room"),
+    ])
+}

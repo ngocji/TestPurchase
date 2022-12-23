@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.1.62.32</domain>
+        <domain includeSubdomains="true">113.20.126.169</domain>
+        <domain includeSubdomains="true">115.146.124.153</domain>
+        <domain includeSubdomains="true">10.50.2.29</domain>
+        <domain includeSubdomains="true">www.ncb-bank.vn</domain>
+        <domain includeSubdomains="true">ncb-bank.vn</domain>
+        <domain includeSubdomains="true">113.20.108.65</domain>
+        <domain includeSubdomains="true">192.168.53.43</domain>
+        <domain includeSubdomains="true">10.1.62.74</domain>
+        <domain includeSubdomains="true">192.168.0.166</domain>
+        <domain includeSubdomains="true">10.1.62.33</domain>
+        <domain includeSubdomains="true">fbcdn.net</domain>
+        <domain includeSubdomains="true">202.134.18.173</domain>
+    </domain-config>
+</network-security-config>

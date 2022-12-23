@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="world">Best Notepad and List</string>
+    <string name="extend">Organization my life</string>
+    <string name="open">START</string>
+    <string name="policy">Agree to the <u>Privacy Policy</u> &amp; <u>Terms of Service</u> </string>
+    <string name="policy1">© 2023 Fivestars Studio</string>
+    <color name="color_splash">#fff</color>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="t_ok">OK</string>
+    <string name="loadding">Loading...</string>
+    <string name="splash_message_ads">This action can contain ads</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+</resources>

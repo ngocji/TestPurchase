@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ThemeApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/font_family</item>
+        <item name="android:fontFamily">@font/font_family</item>
+
+
+        <item name="backgroundColor">@color/white</item>
+        <item name="iconColor">@color/colorAccent</item>
+
+        <item name="textColor">@color/black</item>
+        <item name="textColorSub">@color/gray</item>
+        <item name="buttonDeleteColor">@color/gnt_red</item>
+        <item name="lineColor">@color/gray</item>
+        <item name="buttonTextAccent">@color/colorAccent</item>
+        <item name="buttonTextDisable">@color/gray600</item>
+    </style>
+</resources>

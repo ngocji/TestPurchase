@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../layout/compose-model-1665240202526.xml" value="0.1" />
+        <entry key="../../../../../../layout/compose-model-1665241871536.xml" value="0.165" />
+        <entry key="../../../../../../layout/compose-model-1665243030265.xml" value="0.21574074074074073" />
+        <entry key="../../../../../../layout/compose-model-1665243475633.xml" value="0.22870370370370371" />
+        <entry key="../../../../../../layout/compose-model-1665245504242.xml" value="0.335" />
+        <entry key="../../../../../../layout/compose-model-1665245735446.xml" value="0.25" />
+        <entry key="../../../../../../layout/compose-model-1665245860415.xml" value="0.25" />
+        <entry key="../../../../../../layout/compose-model-1665589030760.xml" value="0.24579124579124578" />
+        <entry key="../../../../../../layout/compose-model-1665590987800.xml" value="0.24579124579124578" />
+        <entry key="../../../../.gradle/caches/transforms-3/7bd2710f3cd2352a26a987dfa5f37c38/transformed/core-1.8.0/res/drawable/notification_tile_bg.xml" value="0.1165" />
+        <entry key="..\:/Project/CodeByNight/Collage/app/src/main/res/drawable/ic_category.xml" value="0.168" />
+        <entry key="..\:/Project/CodeByNight/Collage/app/src/main/res/layout/activity_main.xml" value="0.33350703491401773" />
+        <entry key="..\:/Project/CodeByNight/Collage/app/src/main/res/layout/fragment_splash.xml" value="0.33" />
+        <entry key="..\:/Project/CodeByNight/Collage/common/src/main/res/layout/dialog_confirm.xml" value="0.3268641470888662" />
+        <entry key="..\:/Project/CodeByNight/Collage/common/src/main/res/layout/dialog_progress.xml" value="0.3268641470888662" />
+        <entry key="..\:/Project/FreeCode/KotlinBase/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Project/FreeCode/KotlinBase/app/src/main/res/layout/fragment_main.xml" value="0.18518518518518517" />
+        <entry key="..\:/Project/FreeCode/KotlinBase/app/src/main/res/layout/fragment_request_permission.xml" value="0.25" />
+        <entry key="..\:/Project/OwnProject/export_base/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Project/OwnProject/export_base/app/src/main/res/layout/fragment_home.xml" value="0.3333333333333333" />
+        <entry key="..\:/Project/OwnProject/export_base/app/src/main/res/layout/fragment_splash.xml" value="0.3333333333333333" />
+        <entry key="..\:/Project/OwnProject/export_base/common/src/main/res/drawable/seekbar_background.xml" value="0.2475" />
+        <entry key="..\:/Project/OwnProject/export_base/common/src/main/res/drawable/seekbar_thumb.xml" value="0.2475" />
+        <entry key="..\:/Project/OwnProject/export_base/common/src/main/res/layout/dialog_confirm.xml" value="0.1" />
+        <entry key="..\:/Project/OwnProject/export_base/common/src/main/res/layout/dialog_progress.xml" value="0.1" />
+        <entry key="..\:/Project/OwnProject/export_base/common/src/main/res/layout/layout_error_network.xml" value="0.3333333333333333" />
+        <entry key="..\:/Project/OwnProject/export_base/common/src/main/res/layout/layout_seekbar_view.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/drawable/ad_rounded.xml" value="0.2205" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1165" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.27291666666666664" />
+        <entry key="app/src/main/res/layout/dialog_exit.xml" value="0.271875" />
+        <entry key="app/src/main/res/layout/dialog_premium.xml" value="0.25729166666666664" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.21388888888888888" />
+        <entry key="app/src/main/res/layout/fragment_privacy_policy.xml" value="0.271875" />
+        <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.27291666666666664" />
+        <entry key="common/src/main/res/drawable/seekbar_background.xml" value="0.2815" />
+        <entry key="common/src/main/res/drawable/seekbar_thumb.xml" value="0.2815" />
+        <entry key="common/src/main/res/layout/dialog_confirm.xml" value="0.2175925925925926" />
+        <entry key="common/src/main/res/layout/layout_error_network.xml" value="0.2175925925925926" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

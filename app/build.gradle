@@ -1,0 +1,59 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'kotlin-parcelize'
+    id 'dagger.hilt.android.plugin'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+}
+
+android {
+    compileSdkVersion compile_sdk
+    defaultConfig {
+        applicationId "comx.y.z.collage"
+        minSdkVersion min_sdk
+        targetSdkVersion target_sdk
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility java_source_version
+        targetCompatibility java_target_version
+    }
+
+    kotlinOptions {
+        jvmTarget = kotlin_jvm_target
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // common
+    implementation project(':common')
+    implementation project(':purchase')
+
+    // hilt
+    HiltDependencies.each { add(it.config, it.dependency, it.option) }
+
+    NavigationDependencies.each { add(it.config, it.dependency, it.option) }
+
+    RoomDependencies.each { add(it.config, it.dependency, it.option) }
+
+    // firebase
+    implementation platform(firebaseBom)
+    FirebaseDependencies.each { add(it.config, it.dependency, it.option) }
+}

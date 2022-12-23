@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StateNetworkView">
+        <attr name="state_enable_pull_to_refresh" format="boolean" />
+        <attr name="state_progress_layout" format="reference" />
+        <attr name="state_error_layout" format="reference" />
+        <attr name="state_empty_layout" format="reference" />
+
+        <attr name="state_empty_text" format="string" />
+        <attr name="state_empty_icon" format="reference" />
+    </declare-styleable>
+</resources>

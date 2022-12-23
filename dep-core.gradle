@@ -1,0 +1,37 @@
+ext.dep = { dependency, config = "implementation", option = null ->
+    return [
+            config    : config,
+            dependency: dependency,
+            option    : option,
+    ]
+}
+
+ext.configureDep = { prod, dev = null, closure = null ->
+    if (dev) {
+        prod << dev
+    }
+    def dependencies = []
+    prod.each { entry ->
+        def dependency
+
+        // create dependency
+        if (entry.getValue() instanceof Map) {
+            dependency = entry.getValue()
+        } else {
+            dependency = entry.getValue()
+        }
+
+        // override closure
+        if (closure) {
+            if (dependency.option) {
+                dependency.option = dependency.option << closure
+            } else {
+                dependency.option = closure
+            }
+        }
+
+        // add dependency
+        dependencies << dependency
+    }
+    return dependencies
+}

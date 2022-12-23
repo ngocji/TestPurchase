@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading">Loading...</string>
+    <string name="show_ads_notice">This action may contain ads</string>
+    <string name="confirm_title">Confirm</string>
+    <string name="refresh">Refresh</string>
+    <string name="tag_progress">TAG_PROGRESS</string>
+    <string name="tag_error">TAG_ERROR</string>
+    <string name="tag_content">TAG_CONTENT</string>
+    <string name="tag_empty">TAG_EMPTY</string>
+    <string name="tag_button">TAG_BUTTON</string>
+    <string name="unknow_error">Something went wrong</string>
+    <string name="empty">Empty!</string>
+</resources>

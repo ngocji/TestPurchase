@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_radius">10dp</dimen>
+    <dimen name="dialog_padding">10dp</dimen>
+    <dimen name="dialog_icon_size">34dp</dimen>
+    <dimen name="dialog_title_text_size">16sp</dimen>
+    <dimen name="dialog_sub_text_size">11sp</dimen>
+    <dimen name="dialog_margin_subtitle">3dp</dimen>
+    <dimen name="dialog_margin_content">12dp</dimen>
+    <dimen name="dialog_margin_action">24dp</dimen>
+    <dimen name="dialog_radius_button">20dp</dimen>
+    <dimen name="progress_size">40dp</dimen>
+    <dimen name="progress_margin_content">3dp</dimen>
+    <dimen name="progress_title_size">14sp</dimen>
+    <dimen name="progress_margin_title">10dp</dimen>
+    <dimen name="progress_content_size">11sp</dimen>
+
+    <dimen name="ad_banner_safe_area">10dp</dimen>
+    <dimen name="feature_detail_size">162dp</dimen>
+
+
+
+    <dimen name="text_size_8">8sp</dimen>
+    <dimen name="text_size_9">9sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_19">19sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_21">21sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_23">23sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_25">25sp</dimen>
+    <dimen name="text_size_26">26sp</dimen>
+    <dimen name="text_size_27">27sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+    <dimen name="text_size_29">29sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+    <dimen name="seekbar_icon">17dp</dimen>
+    <dimen name="seekbar_margin_start">3dp</dimen>
+    <dimen name="seekbar_padding_horizontal">12dp</dimen>
+    <dimen name="seekbar_value_min_width">40dp</dimen>
+    <dimen name="state_padding_horizontal">12dp</dimen>
+    <dimen name="state_padding_vertical">8dp</dimen>
+    <dimen name="state_radius_refresh_button">18dp</dimen>
+</resources>
